@@ -4,6 +4,8 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+
+
 module Reboot
   class Application < Rails::Application
   config.generators do |g|
@@ -36,6 +38,7 @@ module Reboot
   config.assets.raise_production_errors = true
   config.action_dispatch.perform_deep_munge = false
   config.i18n.default_locale = 'en'
+  config.assets.initialize_on_precompile = true
   config.autoload_paths += %W(#{config.root}/lib)
   config.assets.precompile += %w( application )
   end

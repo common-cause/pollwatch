@@ -1,0 +1,89 @@
+/* line 5, /srv/pollwatch/app/assets/stylesheets/original/blocks/_report_preview.scss */
+.report .report-preview-block {
+  border-top: solid 1px #1a1818;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+/* line 12, /srv/pollwatch/app/assets/stylesheets/original/blocks/_report_preview.scss */
+.report .problem-icons {
+  margin-left: 0;
+}
+/* line 16, /srv/pollwatch/app/assets/stylesheets/original/blocks/_report_preview.scss */
+.report .shareBox {
+  position: relative;
+  display: none;
+  left: -5px;
+}
+/* line 21, /srv/pollwatch/app/assets/stylesheets/original/blocks/_report_preview.scss */
+.report .shareBox .providers {
+  position: absolute;
+  width: 40px;
+  right: -8px;
+}
+/* line 26, /srv/pollwatch/app/assets/stylesheets/original/blocks/_report_preview.scss */
+.report .shareBox .providers a {
+  display: block;
+  float: left;
+  height: 20px;
+  width: 20px;
+  background: #efefef;
+  text-align: center;
+  padding-top: 2px;
+}
+/* line 35, /srv/pollwatch/app/assets/stylesheets/original/blocks/_report_preview.scss */
+.report .shareBox .providers .facebook {
+  background: #3b5998;
+  color: white;
+}
+/* line 39, /srv/pollwatch/app/assets/stylesheets/original/blocks/_report_preview.scss */
+.report .shareBox .providers .twitter {
+  background: #00a0d1;
+  color: white;
+}
+/* line 47, /srv/pollwatch/app/assets/stylesheets/original/blocks/_report_preview.scss */
+.report .comment {
+  font-size: 24px;
+  line-height: 1.3em;
+  margin-bottom: 5px;
+  font-family: Times New Roman;
+}
+/* line 53, /srv/pollwatch/app/assets/stylesheets/original/blocks/_report_preview.scss */
+.report .comment:before {
+  display: block;
+  float: left;
+  margin: -10px 5px 0 -20px;
+  content: url("/assets/open-quote.svg");
+}
+/* line 59, /srv/pollwatch/app/assets/stylesheets/original/blocks/_report_preview.scss */
+.report .comment:after {
+  content: none;
+  /* could be content:close-quote; but lets keep it clean*/
+}
+/* line 65, /srv/pollwatch/app/assets/stylesheets/original/blocks/_report_preview.scss */
+.report .bottomRow {
+  margin-top: 10px;
+}
+/* line 67, /srv/pollwatch/app/assets/stylesheets/original/blocks/_report_preview.scss */
+.report .bottomRow img {
+  margin-top: -4px;
+}
+/* line 72, /srv/pollwatch/app/assets/stylesheets/original/blocks/_report_preview.scss */
+.report .meta {
+  opacity: .3;
+}
+/* line 74, /srv/pollwatch/app/assets/stylesheets/original/blocks/_report_preview.scss */
+.report .meta:hover {
+  opacity: .9;
+}
+/* line 77, /srv/pollwatch/app/assets/stylesheets/original/blocks/_report_preview.scss */
+.report .meta > div {
+  border-right: solid 1px #efefef;
+  margin-right: 5px;
+  padding-right: 5px;
+}
+/* line 82, /srv/pollwatch/app/assets/stylesheets/original/blocks/_report_preview.scss */
+.report .meta > div:last-child {
+  border: none;
+  margin-right: 0;
+  padding-right: 0;
+}

@@ -1,10 +1,10 @@
-//= require normalize
-//= require jquery.toggle-button
-//= require sticky
-//= require utilities
-//= require list
-//= require buttons
-//= require errors
+//= require normalize-rails
+//= depend_on_asset "spriteme1.png"
+//= require reporting/sticky
+//= require reporting/utilities
+//= require reporting/list
+//= require reporting/buttons
+//= require reporting/errors
 //= require_self
 @import "mixins";
 @import "variables";

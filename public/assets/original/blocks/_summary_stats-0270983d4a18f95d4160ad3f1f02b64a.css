@@ -1,0 +1,27 @@
+/* line 5, /srv/pollwatch/app/assets/stylesheets/original/blocks/_summary_stats.scss */
+#summary .innerWrapper {
+  margin-top: 30px;
+  padding-top: 5px;
+  border-top: solid 3px #1a1818;
+}
+/* line 12, /srv/pollwatch/app/assets/stylesheets/original/blocks/_summary_stats.scss */
+#summary .summaryStatsGroup .numeric {
+  color: #d1001e;
+}
+/* line 15, /srv/pollwatch/app/assets/stylesheets/original/blocks/_summary_stats.scss */
+#summary .summaryStatsGroup h2, #summary .summaryStatsGroup h3 {
+  margin: 0;
+}
+/* line 18, /srv/pollwatch/app/assets/stylesheets/original/blocks/_summary_stats.scss */
+#summary .problems {
+  margin: 0px;
+}
+/* line 22, /srv/pollwatch/app/assets/stylesheets/original/blocks/_summary_stats.scss */
+#summary .prob {
+  margin-left: 25px;
+}
+/* line 24, /srv/pollwatch/app/assets/stylesheets/original/blocks/_summary_stats.scss */
+#summary .prob h3 {
+  float: left;
+  margin-top: 0;
+}

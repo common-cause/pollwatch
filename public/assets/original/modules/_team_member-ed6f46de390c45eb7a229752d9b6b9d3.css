@@ -1,0 +1,10 @@
+/* line 3, /srv/pollwatch/app/assets/stylesheets/original/modules/_team_member.scss */
+.about-teamMember h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+/* line 8, /srv/pollwatch/app/assets/stylesheets/original/modules/_team_member.scss */
+.about-teamMember .p2 {
+  border-top: solid 1px #414146;
+  margin-bottom: 20px;
+}

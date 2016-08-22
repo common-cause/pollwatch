@@ -1,0 +1,13 @@
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  /* line 4, /srv/pollwatch/app/assets/stylesheets/original/layouts/_landscape_phone.scss */
+  #footer {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  /* line 9, /srv/pollwatch/app/assets/stylesheets/original/layouts/_landscape_phone.scss */
+  #row-images > div {
+    text-align: center;
+  }
+}

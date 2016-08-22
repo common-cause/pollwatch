@@ -1,0 +1,7 @@
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  /* line 4, /srv/pollwatch/app/assets/stylesheets/original/layouts/_phone.scss */
+  .share-widgets-module {
+    margin-right: 30px;
+  }
+}

@@ -1,0 +1,9 @@
+/* line 3, /srv/pollwatch/app/assets/stylesheets/original/modules/_utilities.scss */
+.addThickDarkLineTop {
+  border-top: solid 4px #1a1818;
+}
+
+/* line 6, /srv/pollwatch/app/assets/stylesheets/original/modules/_utilities.scss */
+.addThinDarkLineTop {
+  border-top: solid 1px #414146;
+}

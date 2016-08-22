@@ -1,0 +1,51 @@
+/* line 10, /srv/pollwatch/app/assets/stylesheets/original/modules/_icons.scss */
+[class^="problem-icon-"] {
+  background: url(/assets/other.svg) left top no-repeat;
+  display: block;
+  width: 30px;
+  height: 35px;
+  float: left;
+  margin-right: 5px;
+  opacity: .4;
+}
+/* line 18, /srv/pollwatch/app/assets/stylesheets/original/modules/_icons.scss */
+[class^="problem-icon-"]:hover {
+  opacity: 1;
+}
+
+/* line 20, /srv/pollwatch/app/assets/stylesheets/original/modules/_icons.scss */
+.problem-icon-noproblems {
+  background: url(/assets/noproblems.svg) left top no-repeat;
+}
+
+/* line 23, /srv/pollwatch/app/assets/stylesheets/original/modules/_icons.scss */
+.problem-icon-voteinplace {
+  background: url(/assets/voteinplace.svg) left top no-repeat;
+}
+
+/* line 26, /srv/pollwatch/app/assets/stylesheets/original/modules/_icons.scss */
+.problem-icon-noballots {
+  background: url(/assets/noballots.svg) left top no-repeat;
+}
+
+/* line 29, /srv/pollwatch/app/assets/stylesheets/original/modules/_icons.scss */
+.problem-icon-cantvote {
+  width: 35px;
+  background: url(/assets/cantvote.svg) left top no-repeat;
+}
+
+/* line 33, /srv/pollwatch/app/assets/stylesheets/original/modules/_icons.scss */
+.problem-icon-language {
+  width: 50px;
+  background: url(/assets/language.svg) left top no-repeat;
+}
+
+/* line 37, /srv/pollwatch/app/assets/stylesheets/original/modules/_icons.scss */
+.problem-icon-time {
+  background: url(/assets/time.svg) left top no-repeat;
+}
+
+/* line 40, /srv/pollwatch/app/assets/stylesheets/original/modules/_icons.scss */
+.problem-icon-other {
+  background: url(/assets/other.svg) left top no-repeat;
+}

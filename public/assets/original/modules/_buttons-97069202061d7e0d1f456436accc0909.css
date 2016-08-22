@@ -1,0 +1,36 @@
+/* line 4, /srv/pollwatch/app/assets/stylesheets/original/modules/_buttons.scss */
+.btn.btn-flat-blue {
+  background: #7583a0;
+  border: none;
+  border-radius: 1px;
+  color: white;
+  text-shadow: none;
+  padding: 5px 25px;
+  margin-bottom: 5px;
+}
+/* line 13, /srv/pollwatch/app/assets/stylesheets/original/modules/_buttons.scss */
+.btn.btn-flat-blue:hover {
+  background: #525e77;
+  color: white;
+}
+
+/* line 19, /srv/pollwatch/app/assets/stylesheets/original/modules/_buttons.scss */
+.btn.btn-flat-red {
+  background: #d1001e;
+  border: none;
+  border-radius: 1px;
+  color: white;
+  text-shadow: none;
+  padding: 5px 25px;
+  margin-bottom: 5px;
+}
+/* line 28, /srv/pollwatch/app/assets/stylesheets/original/modules/_buttons.scss */
+.btn.btn-flat-red:hover {
+  background: #9e0017;
+  color: white;
+}
+
+/* line 34, /srv/pollwatch/app/assets/stylesheets/original/modules/_buttons.scss */
+.stButton .stFb, .stButton .stTwbutton, .stButton .stMainServices {
+  height: 20px !important;
+}

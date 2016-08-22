@@ -20,9 +20,9 @@ Rails.application.routes.draw do
     #        You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here:
     #        http://guides.rubyonrails.org/routing.html#restricting-the-routes-created
     constraints DomainConstraint.new('pollwatch.us') do
-      root to: 'reporting#home'
+      root to: 'reporting#home', as: :alt_root
     end
   end
-  root to: 'pages#home'
+  root to: 'pages#home', as: :alt_root2
 
 end

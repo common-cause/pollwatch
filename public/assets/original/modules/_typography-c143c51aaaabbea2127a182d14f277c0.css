@@ -1,0 +1,42 @@
+/* line 3, /srv/pollwatch/app/assets/stylesheets/original/modules/_typography.scss */
+h2 {
+  border-top: solid 3px #1a1818;
+}
+
+/* line 6, /srv/pollwatch/app/assets/stylesheets/original/modules/_typography.scss */
+h3 {
+  font-size: 22px;
+  color: #d1001e !important;
+}
+
+/* line 10, /srv/pollwatch/app/assets/stylesheets/original/modules/_typography.scss */
+h4 {
+  border-top: solid 2px #1a1818;
+}
+
+/* line 13, /srv/pollwatch/app/assets/stylesheets/original/modules/_typography.scss */
+h5 {
+  border-top: solid 1px #1a1818;
+}
+
+/* line 18, /srv/pollwatch/app/assets/stylesheets/original/modules/_typography.scss */
+p.p1 {
+  font-size: 20px;
+  line-height: 1.3em;
+  color: #414146;
+  text-align: left;
+}
+/* line 24, /srv/pollwatch/app/assets/stylesheets/original/modules/_typography.scss */
+p.p2 {
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #414146;
+  text-align: left;
+}
+/* line 30, /srv/pollwatch/app/assets/stylesheets/original/modules/_typography.scss */
+p.p3 {
+  font-size: 12px;
+  line-height: 1.5em;
+  color: #414146;
+  text-align: left;
+}

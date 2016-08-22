@@ -1,0 +1,19 @@
+/* line 1, /srv/pollwatch/app/assets/stylesheets/original/modules/_intro_block.scss */
+.about-intro-block {
+  margin-bottom: 30px;
+}
+/* line 2, /srv/pollwatch/app/assets/stylesheets/original/modules/_intro_block.scss */
+.about-intro-block .row {
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+/* line 8, /srv/pollwatch/app/assets/stylesheets/original/modules/_intro_block.scss */
+.developers-intro-block {
+  margin-bottom: 30px;
+}
+/* line 9, /srv/pollwatch/app/assets/stylesheets/original/modules/_intro_block.scss */
+.developers-intro-block .row {
+  padding-top: 5px;
+  margin-top: 20px;
+}
