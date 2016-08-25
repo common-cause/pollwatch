@@ -79,10 +79,6 @@ GEM
       babel-source (>= 4.0, < 6)
       execjs (~> 2.0)
     bcrypt (3.1.11)
-    better_errors (2.1.1)
-      coderay (>= 1.0.0)
-      erubis (>= 2.6.6)
-      rack (>= 0.9.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     bootstrap-sass (3.3.7)
@@ -457,8 +453,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sprockets_better_errors (0.0.4)
-      sprockets-rails (>= 1.0.0)
     sqlite3 (1.3.11)
     thin (1.5.1)
       daemons (>= 1.0.9)
@@ -504,7 +498,6 @@ DEPENDENCIES
   activerecord-import
   activerecord-postgis-adapter
   ancestry
-  better_errors (>= 0.7.2)
   binding_of_caller (>= 0.7.1)
   bootstrap-sass
   bootstrap_form
@@ -561,7 +554,6 @@ DEPENDENCIES
   spring
   spring-commands-rspec
   sprockets
-  sprockets_better_errors
   thin
   turbolinks
   uglifier (>= 1.3.0)

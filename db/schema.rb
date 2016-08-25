@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20141025161756) do
 
-  create_table "polls", force: true do |t|
+  create_table "polls", force: :cascade do |t|
     t.string   "location_name"
     t.string   "address"
     t.float    "latitude"
@@ -22,9 +22,9 @@ ActiveRecord::Schema.define(version: 20141025161756) do
     t.datetime "updated_at"
   end
 
-  add_index "polls", ["latitude", "longitude"], :name => "index_polls_on_latitude_and_longitude"
+  add_index "polls", ["latitude", "longitude"], name: "index_polls_on_latitude_and_longitude"
 
-  create_table "reports", force: true do |t|
+  create_table "reports", force: :cascade do |t|
     t.string   "election_id"
     t.text     "problems"
     t.text     "comment"
@@ -36,6 +36,6 @@ ActiveRecord::Schema.define(version: 20141025161756) do
     t.datetime "updated_at"
   end
 
-  add_index "reports", ["poll_id"], :name => "index_reports_on_poll_id"
+  add_index "reports", ["poll_id"], name: "index_reports_on_poll_id"
 
 end

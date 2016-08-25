@@ -1,0 +1,1089 @@
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+/* line 8, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+/* line 18, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+/* line 31, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 50, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 61, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 70, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+/* line 79, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+template,
+[hidden] {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 92, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+/* line 102, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 115, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 125, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 134, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 143, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 152, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 161, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 170, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 179, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 187, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 191, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 202, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 210, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 222, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 234, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 243, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 257, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+/* line 269, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+optgroup {
+  font-weight: bold;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 278, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 288, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 299, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 310, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 322, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+/* line 333, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 346, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 359, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 368, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 378, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 388, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+/* line 397, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+/* line 406, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 416, /home/ubuntu/.rvm/gems/ruby-2.2.5/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+/* line 3, /srv/pollwatch/app/assets/stylesheets/reporting/sticky.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* must declare 0 margins on everything, also for main layout components use padding, not
+vertical margins (top and bottom) to add spacing, else those margins get added to total height
+and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
+/* line 9, /srv/pollwatch/app/assets/stylesheets/reporting/sticky.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 11, /srv/pollwatch/app/assets/stylesheets/reporting/sticky.scss */
+#wrap {
+  min-height: 100%;
+}
+
+/* line 13, /srv/pollwatch/app/assets/stylesheets/reporting/sticky.scss */
+#main {
+  overflow: auto;
+  padding-bottom: 60px;
+}
+
+/* must be same height as the footer */
+/* line 18, /srv/pollwatch/app/assets/stylesheets/reporting/sticky.scss */
+#footer {
+  position: relative;
+  margin-top: 60px;
+  /* MY HACK */
+  height: 60px;
+  clear: both;
+}
+
+/*Opera Fix*/
+/* line 25, /srv/pollwatch/app/assets/stylesheets/reporting/sticky.scss */
+body:before {
+  /* thanks to Maleika (Kohoutec)*/
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px;
+  /* thank you Erik J - negate effect of float*/
+}
+/* line 2, /srv/pollwatch/app/assets/stylesheets/reporting/utilities.scss */
+.center {
+  text-align: center;
+}
+
+/* line 4, /srv/pollwatch/app/assets/stylesheets/reporting/utilities.scss */
+.hide {
+  display: none !important;
+}
+/* line 1, /srv/pollwatch/app/assets/stylesheets/reporting/list.scss */
+.horizontal-list {
+  margin: 0 auto;
+  padding: 0;
+  display: inline-block;
+  list-style: none;
+}
+/* line 6, /srv/pollwatch/app/assets/stylesheets/reporting/list.scss */
+.horizontal-list li {
+  margin: 0 10px 0 0;
+  padding: 0;
+  float: left;
+  border-right: solid 1px #999;
+  padding-right: 10px;
+}
+/* line 10, /srv/pollwatch/app/assets/stylesheets/reporting/list.scss */
+.horizontal-list li:last-child {
+  border: 0;
+}
+
+/*
+    Hide the original radios and checkboxes
+    (but still accessible)
+
+    :not(#foo) > is a rule filter to block browsers
+                 that don't support that selector from
+                 applying rules they shouldn't
+
+*/
+/* line 26, /srv/pollwatch/app/assets/stylesheets/reporting/list.scss */
+li:not(#foo) > input[type='radio'],
+li:not(#foo) > input[type='checkbox'] {
+  /* Hide the input, but have it still be clickable */
+  opacity: 0;
+  display: none;
+  float: left;
+  width: 18px;
+}
+
+/* line 37, /srv/pollwatch/app/assets/stylesheets/reporting/list.scss */
+li:not(#foo) > input[type='radio'] + label,
+li:not(#foo) > input[type='checkbox'] + label {
+  margin: 0;
+  clear: none;
+  /* Left padding makes room for image */
+  padding: 5px 0 4px 24px;
+  /* Make look clickable because they are */
+  cursor: pointer;
+  background: url(/assets/off-4949d6d82c3f6a44ad65242a7f520801731ad800949ca4fcc0c1752fd2fbf97d.png) left center no-repeat;
+}
+
+/*
+    Change from unchecked to checked graphic
+*/
+/* line 54, /srv/pollwatch/app/assets/stylesheets/reporting/list.scss */
+li:not(#foo) > input[type='radio']:checked + label {
+  background-image: url(/assets/radio-b0d1599c253125003b86ac5b5bc8d93c3d0b28d865192f8d64258cc725d86bb4.png);
+}
+
+/* line 57, /srv/pollwatch/app/assets/stylesheets/reporting/list.scss */
+li:not(#foo) > input[type='checkbox']:checked + label {
+  background-image: url(/assets/check-b2c5587f18fa92b82ab4b0f91fa490bccbf190f06d87822a6905a631e1d0ea7c.png);
+}
+/* line 1, /srv/pollwatch/app/assets/stylesheets/reporting/buttons.scss */
+.baseBtn {
+  background-color: #f8f8f8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#dedede));
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  padding: .7em 25px .7em 25px;
+  border: #cccccc solid 1px;
+  border-radius: 5px;
+  color: black;
+  text-shadow: none;
+  text-align: center;
+  margin: 10px auto;
+  float: none;
+}
+/* line 18, /srv/pollwatch/app/assets/stylesheets/reporting/buttons.scss */
+.baseBtn:hover {
+  color: black;
+}
+/* line 24, /srv/pollwatch/app/assets/stylesheets/reporting/buttons.scss */
+.baseBtn i {
+  background-position: -24px 0;
+  width: 21px;
+  height: 16px;
+  left: 4px;
+  margin-top: -6px;
+}
+/* line 31, /srv/pollwatch/app/assets/stylesheets/reporting/buttons.scss */
+.baseBtn svg {
+  position: relative;
+  top: 4px;
+}
+
+/* line 38, /srv/pollwatch/app/assets/stylesheets/reporting/buttons.scss */
+.custom-ui-icon {
+  background-color: #999;
+  background-image: url("spriteme1.png");
+  background-repeat: no-repeat;
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
+  display: block;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  text-indent: -99em;
+  overflow: hidden;
+  position: absolute;
+  top: 10px;
+}
+
+/* line 55, /srv/pollwatch/app/assets/stylesheets/reporting/buttons.scss */
+.custom-ui-left {
+  background-position: -550px -10px;
+  left: 10px;
+}
+
+/* line 60, /srv/pollwatch/app/assets/stylesheets/reporting/buttons.scss */
+.custom-ui-right {
+  background-position: -586px -11px;
+  right: 10px;
+}
+
+/* line 65, /srv/pollwatch/app/assets/stylesheets/reporting/buttons.scss */
+.primaryBtn {
+  border-color: #E78F08;
+  background: #E78F08;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#F6A828), to(#E78F08));
+  color: white;
+  text-shadow: 2px 2px black;
+}
+/* line 71, /srv/pollwatch/app/assets/stylesheets/reporting/buttons.scss */
+.primaryBtn:hover {
+  color: white;
+}
+
+/* line 75, /srv/pollwatch/app/assets/stylesheets/reporting/buttons.scss */
+.secondaryBtn {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #5bb75b;
+  *background-color: #51a351;
+  background-image: -moz-linear-gradient(top, #62c462, #51a351);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
+  background-image: -webkit-linear-gradient(top, #62c462, #51a351);
+  background-image: -o-linear-gradient(top, #62c462, #51a351);
+  background-image: linear-gradient(to bottom, #62c462, #51a351);
+  background-repeat: repeat-x;
+  border-color: #51a351 #51a351 #387038;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  color: white;
+}
+/* line 98, /srv/pollwatch/app/assets/stylesheets/reporting/buttons.scss */
+.secondaryBtn:hover, .secondaryBtn:active {
+  color: #ffffff;
+  background-color: #51a351;
+  *background-color: #499249;
+}
+
+/* line 105, /srv/pollwatch/app/assets/stylesheets/reporting/buttons.scss */
+.dangerBtn {
+  border: 1px solid #c1272d;
+  color: white;
+  text-shadow: 0 1px 0 #444444;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f46c72), to(#d13a3f));
+}
+/* line 108, /srv/pollwatch/app/assets/stylesheets/reporting/buttons.scss */
+.dangerBtn:hover {
+  color: white;
+}
+
+/* line 113, /srv/pollwatch/app/assets/stylesheets/reporting/buttons.scss */
+.tweetBtn {
+  background-color: #f8f8f8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#dedede));
+  border: #cccccc solid 1px;
+  text-shadow: none;
+  color: black;
+}
+/* line 122, /srv/pollwatch/app/assets/stylesheets/reporting/buttons.scss */
+.tweetBtn span {
+  position: relative;
+}
+/* line 125, /srv/pollwatch/app/assets/stylesheets/reporting/buttons.scss */
+.tweetBtn i {
+  position: absolute;
+  top: 50%;
+  left: -24px;
+  background: 0 0 no-repeat;
+  background-image: url("tweet.png");
+}
+
+/* line 135, /srv/pollwatch/app/assets/stylesheets/reporting/buttons.scss */
+.submitBtn {
+  width: 100%;
+  display: block;
+  border-bottom: solid 1px #CCC;
+}
+/* line 3, /srv/pollwatch/app/assets/stylesheets/reporting/errors.scss */
+#errorFields {
+  border: solid 4px #BF3030;
+  background-color: #FF9797;
+  color: #A60000;
+  text-shadow: none;
+  padding: 15px;
+  margin-bottom: 10px;
+  display: none;
+  margin: 0 auto 10px;
+}
+/* line 14, /srv/pollwatch/app/assets/stylesheets/reporting/errors.scss */
+#errorFields ul {
+  margin: 0px;
+  padding-left: 20px;
+  list-style-type: disc !important;
+}
+/* line 19, /srv/pollwatch/app/assets/stylesheets/reporting/errors.scss */
+#errorFields ul li {
+  margin-left: 0px;
+}
+
+/* line 25, /srv/pollwatch/app/assets/stylesheets/reporting/errors.scss */
+input.error {
+  border: solid 2px #FF4040;
+}
+/* line 23, /srv/pollwatch/app/assets/stylesheets/reporting/mixins.scss */
+.clearfix {
+  *zoom: 1;
+}
+/* line 14, /srv/pollwatch/app/assets/stylesheets/reporting/mixins.scss */
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+}
+/* line 19, /srv/pollwatch/app/assets/stylesheets/reporting/mixins.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 17, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+body {
+  background: #efefef;
+  font-family: Helvetica;
+  color: #333;
+}
+
+/* line 21, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+a {
+  text-decoration: none;
+  color: #999;
+}
+/* line 24, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+a:hover {
+  color: #666;
+}
+
+/* line 28, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+hr {
+  border: solid 1px #ddd;
+  background-color: #efefef;
+}
+
+/* line 37, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+#logo {
+  width: 200px;
+}
+
+/* line 41, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.tutImg {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+  margin-top: -4px;
+  float: left;
+  display: block;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/* line 50, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.tutImg.flag {
+  background-image: url(/assets/spriteme1-ee92762aeb031c89e196dfdde1999c28c31851dad0431c67b3cadb0827e5c212.png);
+  background-position: -13px -90.5px;
+}
+/* line 54, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.tutImg.find01 {
+  background-image: url(/assets/spriteme1-ee92762aeb031c89e196dfdde1999c28c31851dad0431c67b3cadb0827e5c212.png);
+  background-position: -12px -47.5px;
+}
+/* line 58, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.tutImg.megaphone {
+  background-image: url(/assets/spriteme1-ee92762aeb031c89e196dfdde1999c28c31851dad0431c67b3cadb0827e5c212.png);
+  background-position: -14px -133px;
+}
+
+/* line 65, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+#landingTutorial .baseBtn {
+  padding-left: 5px;
+  padding-right: 5px;
+  min-width: 97%;
+}
+/* line 70, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+#landingTutorial .baseBtn.secondaryBtn {
+  text-align: left;
+}
+/* line 72, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+#landingTutorial .baseBtn.secondaryBtn img {
+  margin-left: 7px;
+}
+/* line 77, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+#landingTutorial .baseBtn.nonBtnLi {
+  background: none;
+  border: none;
+  cursor: default;
+  text-align: left;
+  height: 2.4em;
+}
+/* line 83, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+#landingTutorial .baseBtn.nonBtnLi img {
+  margin-top: 2px;
+}
+/* line 89, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+#landingTutorial i {
+  float: left;
+  margin: 0;
+}
+
+/* line 95, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+#landingCallout {
+  margin-top: 60px;
+}
+
+/* line 99, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.content {
+  padding: 0 5px;
+  min-height: 500px;
+}
+
+/* line 104, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+abbr {
+  display: none;
+}
+
+/* line 107, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.orLine {
+  width: 90%;
+  margin: 30px auto 10px auto;
+  position: relative;
+}
+/* line 111, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.orLine .orText {
+  position: relative;
+  top: -9px;
+}
+/* line 114, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.orLine .orText span {
+  background: #efefef;
+}
+
+/* line 122, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.problems {
+  list-style: none;
+  padding: 0px 0;
+  border-radius: 5px;
+  background: #fefefe;
+  border: solid 1px #999;
+}
+/* line 129, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.problems + h3 {
+  margin-bottom: 5px;
+}
+
+/* line 134, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.choice {
+  padding: 5px 10px 5px 10px;
+  margin: 0px 0px 0px 0px;
+  font-size: 1.2em;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  /*
+    Introduced in IE 10.
+    See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+  */
+  -ms-user-select: none;
+  user-select: none;
+}
+/* line 138, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.choice.checked {
+  background-color: #d6d6d6;
+}
+
+/* line 144, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+#polls2 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* line 149, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.poll {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #CCC;
+  border-bottom: none;
+  text-shadow: 0 1px 0 white;
+  color: #2F3E46;
+  cursor: pointer;
+  background-color: #efefef;
+  padding: .7em 15px .7em 15px;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  /*
+    Introduced in IE 10.
+    See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+  */
+  -ms-user-select: none;
+  user-select: none;
+  width: 94%;
+}
+/* line 665, /srv/pollwatch/app/assets/stylesheets/reporting/mixins.scss */
+.poll:not(:disabled):active {
+  color: white;
+  text-shadow: none;
+  background-color: #387bbe;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#34414c), to(#214972));
+}
+/* line 671, /srv/pollwatch/app/assets/stylesheets/reporting/mixins.scss */
+.poll:not(:disabled)[type="submit"] {
+  background-color: #efefef;
+  background-image: none;
+}
+/* line 153, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.poll:last-child {
+  border-bottom: 1px solid #cccccc;
+}
+
+/* line 164, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.header {
+  color: #3E3E3E;
+  font-weight: bold;
+  text-shadow: 0 1px 1px white;
+  border: 1px solid #EEE;
+  border-bottom-color: silver;
+  top: -2px;
+  background: #EEE;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#F0F0F0), to(#DDD));
+  background-image: -webkit-linear-gradient(#F0F0F0, #DDD);
+  background-image: linear-gradient(#F0F0F0, #DDD);
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+/* line 181, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.header .title {
+  position: relative;
+  min-height: 1.1em;
+  max-width: 600px;
+  text-align: center;
+  font-size: 16px;
+  display: block;
+  margin: .6em 30% .8em;
+  padding: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  outline: 0 !important;
+}
+
+/* line 197, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+#page {
+  position: relative;
+}
+
+/* line 202, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+#footer .innerWrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* line 210, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.reportWrapper {
+  display: none;
+}
+/* line 212, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.reportWrapper .report {
+  padding: 5px;
+  background: #ccc;
+  border: solid 3px #999;
+}
+
+/* line 219, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.oneMomentWrapper {
+  width: 100%;
+  height: 120%;
+  background: rgba(50, 50, 50, 0.25);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+/* line 228, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.oneMomentWrapper .one_moment {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  padding: 0px;
+  text-align: center;
+  border: solid 1px #CCC;
+  background: #efefef url(/assets/ajax-loader-aebc793d0064383ee6b1625bf3bb32532ec30a5c12bf9117066107d412119123.gif) center center no-repeat;
+}
+
+/* line 239, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.step {
+  display: none;
+  max-width: 600px;
+  margin: 0 auto;
+}
+/* line 243, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.step.current {
+  display: block;
+}
+/* line 245, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.step.loadingStep {
+  height: 400px;
+  background: #efefef url(/assets/ajax-loader-aebc793d0064383ee6b1625bf3bb32532ec30a5c12bf9117066107d412119123.gif) center center no-repeat;
+}
+/* line 251, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.step [type='text'], .step [type='tel'], .step [type='email'], .step [type='search'] {
+  -webkit-appearance: none;
+  padding: .4em 0 .4em .4em;
+  width: 98%;
+  line-height: 1.4;
+  outline: 0;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+  margin-bottom: 0 !important;
+}
+/* line 261, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.step .inline-hints {
+  margin-left: 0;
+}
+/* line 264, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+.step .textarea {
+  width: 97%;
+  min-height: 70px;
+  border: solid 1px #ccc;
+  outline: 0;
+  border-radius: 5px;
+  padding: 5px;
+  resize: none;
+}
+
+/* line 275, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+#contactMethodBtn {
+  margin-top: 10px;
+}
+/* line 277, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+#contactMethodBtn .labelLeft {
+  background: url(/assets/spriteme1-ee92762aeb031c89e196dfdde1999c28c31851dad0431c67b3cadb0827e5c212.png) center center no-repeat;
+  background-position: 2px -177px;
+  text-indent: -99em;
+}
+/* line 282, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+#contactMethodBtn .labelRight {
+  background: url(/assets/spriteme1-ee92762aeb031c89e196dfdde1999c28c31851dad0431c67b3cadb0827e5c212.png) center center no-repeat;
+  background-position: 2.5px -218.5px;
+  text-indent: -99em;
+}
+
+/* line 288, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+#skipContactMethod {
+  float: right;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+@media screen and (max-device-width: 500px) {
+  /* line 296, /srv/pollwatch/app/assets/stylesheets/reporting/application.scss */
+  legend.label {
+    margin: 0.4em 0 40px !important;
+    padding: 0 !important;
+  }
+}
